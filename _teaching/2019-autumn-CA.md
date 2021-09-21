@@ -1,5 +1,5 @@
 ---
-title: "Computer Architectures"
+title: "Computer Architecture"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2019-autumn-CA.html

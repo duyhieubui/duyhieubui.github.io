@@ -1,5 +1,5 @@
 ---
-title: "Digital Designs"
+title: "Digital Design"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2019-autumn-dd.html

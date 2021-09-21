@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in Electronics and Telecommunicaton, VNU University of Engineering and Technology, Vietnam, 2010
 * M.S. in Network and Telecommunication, Paris-Sud XI University, France, 2012
-* Ph.D in Nano-Electronics and Nanotechnology, EEATS, Grenoble-Alpes University, France, 2019
+* Ph.D in Nanoelectronics and Nanotechnology, EEATS, Grenoble-Alpes University (UGA), France, 2019
 
 Work experience
 ======
@@ -29,7 +29,7 @@ Work experience
 
 * 2017-2019: Research engineer
   * VNU University of Engineering and Technology
-  * Conducting research on Hardware security and security hardware for IoT
+  * Conducting research on Hardware Security and Security Hardware for IoT
   * Principle engineer on BCAM Project: in charge of data encryption module and security mechanisms
 
 * 2015-2017: Research engineer
@@ -47,9 +47,9 @@ Work experience
 Skills
 ======
 * Hardware modeling, simulation, implementation and verification
-  * Simulators: VCS (synopsys), ModelSim/QuestaSim (Mentor Graphics), NCSim (Cadence)
+  * Simulators: VCS (Synopsys), ModelSim/QuestaSim (Mentor Graphics), NCSim (Cadence)
   * Digital Hardware Implementation Flow: Design Compiler/IC Compiler/StarRC/IC Validator (Synopsys), Innovus (Cadence)
-  * Mixed-Signal tools: Custom Compiler/Custom Sim/Hspice (synopsys)
+  * Mixed-Signal tools: Custom Compiler/Custom Sim/Hspice (Synopsys)
   * Opensource design tools: Ngspice, Magic, Xschem, Openlane, Openroad
 * Hardware Description language
   * Verilog/SystemVerilog

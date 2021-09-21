@@ -11,30 +11,58 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Electronics and Telecommunicaton, VNU University of Engineering and Technology, Vietnam, 2010
+* M.S. in Network and Telecommunication, Paris-Sud XI University, France, 2012
+* Ph.D in Nano-Electronics and Nanotechnology, EEATS, Grenoble-Alpes University, France, 2019
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2021-present: Assistant Professor
+  * VNU Information Technology Institute, Vietnam National University, Hanoi
+  * Teaching Digital Design & Computer Achitecture courses
+  * Research engineer on Machine Learning and Hardware Security for IoT and their hardware implementation
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* 2019-2021: Assistant Professor
+  * VNU University of Engineering and Technology, Vietnam National University, Hanoi
+  * Teaching Digital Design & Computer Architecture courses
+  * Principle Investigator on various projects such as ADEN4IOT and SCAI
+
+* 2017-2019: Research engineer
+  * VNU University of Engineering and Technology
+  * Conducting research on Hardware security and security hardware for IoT
+  * Principle engineer on BCAM Project: in charge of data encryption module and security mechanisms
+
+* 2015-2017: Research engineer
+  * CEA-Leti, Grenoble, France
+  * Proposing and implementing a solution to secure Ultra-Low-Power IoT application
+
+* 2010-2015: Teaching Assistant & Research engineer
+  * VNU University of Engineering and Technology, Vietnam National University, Hanoi
+  * Conducting research on Video Coding and implementing hardware accelerator for Video Coding based on H264/AVC standard
+
+* 2008-2009: Intership
+  * Toshiba-Coltech Software Laboratory, VNU University of Engineering and Technology, Vietnam National University, Hanoi
+  * Studying and implementing Zoomable User Interface (ZUI) for embedded systems
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Hardware modeling, simulation, implementation and verification
+  * Simulators: VCS (synopsys), ModelSim/QuestaSim (Mentor Graphics), NCSim (Cadence)
+  * Digital Hardware Implementation Flow: Design Compiler/IC Compiler/StarRC/IC Validator (Synopsys), Innovus (Cadence)
+  * Mixed-Signal tools: Custom Compiler/Custom Sim/Hspice (synopsys)
+  * Opensource design tools: Ngspice, Magic, Xschem, Openlane, Openroad
+* Hardware Description language
+  * Verilog/SystemVerilog
+  * VHDL
+  * Chisel
+  * SystemC
+* Software design & scripting
+  * Python
+  * TCL
+  * Scala
+* Embedded system programming
+  * C
+  * C++
 
 Publications
 ======
@@ -56,4 +84,6 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* IEICE Vietnam Section Representative (2020-2021)
+* IEEE Solid-State Circuit Society
+* IEEE Circuit & System Society

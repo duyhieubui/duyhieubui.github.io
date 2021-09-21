@@ -1,0 +1,173 @@
+@inproceedings{SisLab3723,
+       booktitle = {IEEE Asia Pacific Conference on Circuits and Systems (APCCAS)},
+           month = {November},
+           title = {A Novel Hardware Architecture for Human Detection using HOG-SVM Co-Optimization},
+          author = {Ngo-Doanh Nguyen and Duy-Hieu Bui and Xuan-Tu Tran},
+            year = {2019},
+           pages = {33--36},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/3723/},
+        abstract = {Histogram of Oriented Gradient (HOG) in combination with Supported Vector Machine (SVM) has been used as an efficient method for object detection in general and human detection in particular. Human detection using HOG-SVM in hardware shows high classification rate at higher throughput when compared with deep learning methods. However, data dependencies and complicated arithmetic in HOG feature generation and SVM classification limit the maximum throughput of these applications. In this paper, we propose a novel high-throughput hardware architecture for human detection by co-optimizing HOG feature generation and SVM classification. The throughput is improved by using a fast, highly-parallel and low-cost HOG feature generation in combination with a modified datapath for parallel computation of SVM and HOG feature normalization. The proposed architecture has been implemented in TSMC 65nm technology with a maximum operating frequency of 500MHz and throughput of 139fps for Full-HD resolution. The hardware area cost is about 145kGEs along with 110kb SRAMs.}
+}
+
+@inproceedings{SisLab3725,
+       booktitle = {2019 32nd IEEE International System-on-Chip Conference (SOCC)},
+           month = {September},
+           title = {An Efficient Event-driven Neuromorphic Architecture for Deep Spiking Neural Networks},
+          author = {Duy-Anh Nguyen and Duy-Hieu Bui and Francesca Iacopi and Xuan-Tu Tran},
+            year = {2019},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/3725/},
+        abstract = {Deep Neural Networks (DNNs) have been successfully
+applied to various real-world machine learning applications.
+However, performing large DNN inference tasks in real-time
+remains a challenge due to its substantial computational costs. Recently, Spiking Neural Networks (SNNs) have emerged as an alternative way of processing DNN?s task. Due to its eventbased, data-driven computation, SNN reduces both inference latency and complexity. With efficient conversion methods from traditional DNN, SNN exhibits similar accuracy, while leveraging many state-of-the-art network models and training methods. In this work, an efficient neuromorphic hardware architecture for image recognition task is presented. To preserve accuracy, the analog-to-spiking conversion algorithm is adopted. The system aims to minimize hardware area cost and power consumption, enabling neuromorphic hardware processing in edge devices. Simulation results have shown that, with the MNIST digit recognition task, the system has achieved {$\times$}20 reduction in terms
+of core area cost compared to the state-of-the-art works, with an accuracy of 94.4\%, core area of 15 {\ensuremath{\mu}}m2 at a maximum frequency of 250 MHz.}
+}
+
+@inproceedings{SisLab3721,
+       booktitle = {International Conference on Advanced Technologies for Communications (ATC) 2019},
+           title = {A Variable Precision Approach for Deep Neural Networks},
+          author = {Xuan-Tuyen Tran and Duy-Anh Nguyen and Duy-Hieu Bui and Xuan-Tu Tran},
+            year = {2019},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/3721/},
+        abstract = {Deep Neural Network (DNN) architectures have been recently considered as the big breakthrough for a variety of applications. Because of the high computing capabilities required, DNN has been unsuitable for various embedded applications. Many works have been trying to optimize the key operations, which are multiply-and-add, in hardware for a smaller area, higher throughput, and lower power consumption. One way to optimize these factors is to use the reduced bit accuracy; for examples, Google's TPU used only 8-bit integer operations for DNN inference. Based on the characteristics of different layers in DNN, further bit accuracy can be changed to preserve the hardware area, power consumption, and throughput. In this work, the thesis investigates a hardware implementation of multiply-and-add with variable bit precision which can be adjusted at the computation time. The proposed design can calculate the sum of several products with the bit precision ranging from 1 to 16 bits. The hardware implementation results on Xilinx FPGA Virtex 707 development kit show that our design occupies smaller hardware and can run at a higher frequency of 310 MHz, while the same functionality implemented with and without DSP48 blocks can only run at a frequency of 102 MHz. In addition, to demonstrate that the proposed design is applicable effectively for deep neural network architecture, the paper also integrated the new design in the MNIST network. The simulation and verification results show that the proposed system can achieve the accuracy up of to 88\%.}
+}
+
+@inproceedings{SisLab3114,
+       booktitle = {2018 The 5th NAFOSTED Conference on Information and Computer Science (NICS)},
+           month = {November},
+           title = {An Efficient Hardware Implementation of Artificial Neural Network based on Stochastic Computing},
+          author = {Duy-Anh Nguyen and Huy-Hung Ho and Duy-Hieu Bui and Xuan-Tu Tran},
+            year = {2018},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/3114/}
+}
+
+@inproceedings{SisLab2746,
+       booktitle = {The 4th NAFOSTED Conference on Information and Computer Science (NICS)},
+           month = {November},
+           title = {Accurate and Low Complex Cell Histogram Generation by Bypass the Gradient of Pixel Computation},
+          author = {Huy-Hung Ho and Ngoc-Sinh Nguyen and Duy-Hieu Bui and Xuan-Tu Tran},
+            year = {2017},
+           pages = {201--206},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/2746/},
+        abstract = {Histogram of Oriented Gradient (HOG) is a popular
+feature description for the purpose of object detection. However, HOG algorithm requires a performance system because of its complex operation set. Especially, the cell histogram generation is one of the most complex part, it uses inverse tangent, square, square root, floating point multiplication. In this paper, we propose an accurate and low complex cell histogram generation by bypass the gradient of pixel computation. It employs the bin?s
+boundary angle method to determine the two quantized angles. However, instead of choosing an approximate value of tan, the nearest greater and the nearest smaller of each tan values from ratio between pixel?s derivative in y and x direction are used. Magnitude of two bins are solutions of a system of two equations, which represent the equality of the gradient of a pixel and its two bins in both vertical and horizontal direction. The proposed
+method spends only 30 addition and 40 shift operations to identify two bins of a pixel. Simulation results show that the percentage error when reconstructing the difference in x and y direction are always less than 2\% with 8-bit length of the fractional part. Additionally, manipulating the precision of gradient magnitude is very simple by pre-defined sine and cosine values of quantized angles. Synthesizing the hardware implementation presents that
+its area cost is 3.57 KGates with 45nm NanGate standard cell library. The hardware module runs at the maximum frequency of 400 MHz, and the throughput is 0.4 (pixel/ns) for a single module. It is able to support about 48 fps with 4K UHD resolution.}
+}
+
+@inproceedings{SisLab2745,
+       booktitle = {The 7th International Conference on Integrated Circuits, Design, and Verification (ICDV)},
+           month = {October},
+           title = {Efficient Binary Arithmetic Encoder for HEVCwith Multiple Bypass Bin Processing},
+          author = {Quang-Linh Nguyen and Dinh-Lam Tran and Duy-Hieu Bui and Duc-Tho Mai and Xuan-Tu Tran},
+            year = {2017},
+           pages = {82--87},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/2745/},
+        abstract = {The increasing amount of digital video with supreme quality requires more efficient compression. As the complexity of video coding algorithm is rising, there are more demands for hardware accelerators and customized hardware. Context-based Adaptive Binary Arithmetic Coding (CABAC) is the only entropy coding method adopted in the latest video compression standard, High Efficiency Video Coding (HEVC). Binary Arithmetic Encoder (BAE) is an essential component in CABAC, where the compression process happens. Because of the high data dependency and sequential coding characteristic, it is challenging to parallelize BAE. In this work, we proposed a low-cost and high-throughput hardware architecture for one core of BAE in HEVC. Our 4-stage pipelined BAE architecture is capable of processing one regular bin and up to 4 bypass bins per clock cycle with 30\% reduction in terms of area when compared with the designs for one-core CABAC architecture. The design can compress an average of 1.4 bins per cycle. It achieves a throughput of 1 Gbin/s at the maximum operating frequency of 810 MHz with the area of 2.2 kGEs and the power consumption of 2.0 mW in Nangate 45nm technology.}
+}
+
+@inproceedings{SisLab1511,
+       booktitle = {The 2016 IEEE International Conference on Integrated Circuit Design and Technology},
+           month = {May},
+           title = {Ultra Low-Power and Low-Energy 32-bit Datapath AES Architecture for IoT Applications},
+          author = {Duy-Hieu Bui and Diego Puschini and Simone Bacles-Min and Edith Beigne and Xuan-Tu Tran},
+            year = {2016},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/1511/},
+        abstract = {In this paper, we propose a novel AES microarchitecture with 32-bit datapath optimized for low-power and low-energy consumption targeting IoT applications. The proposed design uses simple shift registers for key/data storage and permutation to minimize the area, and the power/energy consumption. These shift registers also minimize the control logics in the key expansion and the encryption path. The proposed architecture is further optimized for area and/or power/energy consumption by selecting a suitable implementation of S-boxes and applying the clock gating technique. The implementation results in TSMC 65nm technology show that our design can save 20\% of area or 20\% of energy per bit at the same area when compared with the current 32-bit datapath designs. Our design also occupies smaller core area with lower energy per bit and at least 4 times higher in throughput in comparison with other 8-bit designs in the same technology node.}
+}
+
+@inproceedings{SisLab426,
+       booktitle = {2014: the 12th of the biennial IEEE Asia Pacific Conference on Circuits and Systems (IEEE APCCAS 2014)},
+           month = {November},
+           title = {Reducing Temporal Redundancy in MJPEG using Zipfian Estimation Techniques},
+          author = {Ngoc-Sinh Nguyen and Duy-Hieu Bui and Xuan-Tu Tran},
+            year = {2014},
+           pages = {65--68},
+            note = {Outstanding Student Paper Award \& Travel Support Grant Award},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/426/},
+        abstract = {The bit-rate is the one the most crucial factor in storing and transmitting the digital videos while the complexity plays the most important part in embedded systems.Nowadays, H.264/AVC and newest video advance codec are great in reducing bit-rate. However, these codec have high processing dependencies and complexity. This leads to difficulties in implementing them into the embedded systems, maintaining the real time properties of the system and power consumption problems. Therefore, MJPEG  standard is still widely used in the embedded systems even it is inefficient in reducing the bit-rate. In this paper, we improve the quality and the bitrate of the MJPEG codec with low-complexity techniques: temporal compression and encoding residual values in motions.
+
+Motion JPEG simply compresses each frame in a video sequence using JPEG still image compression standard. This video codec satisfies power consumption and real-time properties of embedded systems while having very low complexity. However, the downside is its inefficiency in reducing the bit-rate because there are still redundancies between encoded frames. In this paper, we focus on reducing temporal redundancies in MJPEG using a motion detection algorithm, called Zipfian estimation. The Zipfian estimation helps MJPEG extract separately the moving blocks and the stationary blocks then removes temporal redundancies by minimizing encoded bit-stream of stationary blocks and encoding only the residuals of the moving blocks between adjacent frames. Experimental results show that the proposed method can provide twice compression ratio as much as the conventional MJPEG, and an approximate quality and bit-rate as the H.264/AVC (Intra-mode). Even the proposed method uses the Zipfian estimation, it still has smaller number of operations than the conventional MJPEG if the percentage of the static scene is equal or greater than 60\%. Compared with the H.264/AVC Intra mode when turning off the rate-distortion optimization, the running time of the proposed method is still only a half.}
+}
+
+@inproceedings{SisLab430,
+       booktitle = {2014: the 12th of the biennial IEEE Asia Pacific Conference on Circuits and Systems (IEEE APCCAS 2014)},
+           month = {November},
+           title = {H.264/AVC Hardware Encoders and Low-Power Features},
+          author = {Ngoc-Mai Nguyen and Edith Beigne and Suzanne Lesecq and Duy-Hieu Bui and Nam-Khanh Dang and Xuan-Tu Tran},
+            year = {2014},
+           pages = {77--80},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/430/},
+        abstract = {Because of significant bit rate reduction in comparison to the previous video compression standards, the H.264/AVC has been successfully used in a wide range of applications. In hardware design for H.264/AVC video encoders, power reduction is currently a tremendous challenge. This paper presents a survey of different H.264/AVC hardware encoders focusing on power features and power reduction techniques to be applied. A new H.264/AVC hardware encoder, named VENGME, is proposed. This low power encoder is a four-stage architecture with memory access reduction, in which, each module has been optimized. The actual total power consumption, estimated at RTL level, is 19.1mW.}
+}
+
+@inproceedings{SisLab431,
+       booktitle = {The 5th International Conference on Integrated Circuits, Design, and Verification (ICDV 2014)},
+           month = {November},
+           title = {A Low-Cost Implementation of Advance Encryption Standard},
+          author = {Tien-Luan Vu and Van-Quy Quach and Duy-Hieu Bui and Xuan-Tu Tran},
+            year = {2014},
+           pages = {50--55},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/431/},
+        abstract = {The fast development of the Internet enables the information to be easily shared on a global network, however, it also raises the concerns about the secure of the information especially the sensitive data such as passwords, bank accounts, personal information and so on. One method to protect the sensitive data is using symmetric-key block cypher before and after sending
+it over the network using same secret key. Advanced Encryption Standard (AES) is currently considered as best symmetric-key block cipher. With the block size of 128-bits and the key length starting from 128-bit up to 256-bits, AES has been proved to takes years to break. However, AES implementations in software also require more computations and time to encrypt and decrypt the data. This bottleneck not only reduces the overall system throughput but also increases the power consumption especially in the embedded system, where there are limited computations and resources. To improve the throughput and reduce the power consumption of the AES crypto system, in this work, we proposed a combined, low-cost and high-throughput AES encryption and decryption architecture supporting all key-lengths as specified in the FIPS197. The design was modeled in VHDL and
+successfully synthesized using Xilinx Virtex 5 FPGA Chip 5VSX50TF with maximum frequency of 105 MHz and the maximum
+throughput of 300 Mbps.}
+}
+
+@inproceedings{SisLab436,
+       booktitle = {REV-ECIT: National Conference on Electronics, Communications and Information Technology},
+           month = {September},
+           title = {Xây dựng hệ thống mô phỏng và kiểm chứng cho bộ mã hoá tín hiệu video video H.264/AVC},
+          author = {Duy-Hieu Bui and Nam-Khanh Dang and Ngoc-Mai Nguyen and Kiem-Hung Nguyen and Xuan-Tu Tran},
+            year = {2014},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/436/},
+        abstract = {Sự phức tạp của hệ thống mã hoá tín hiệu video H.264/AVC đã dẫn tới nhiều khó khăn trong việc kiểm tra, kiểm chứng và kiểm thực các thiết kế ở mức hệ thống của bộ mã hoá này. Những khó khăn chúng tôi gặp phải khi thiết kế và thực thi hệ thống này là việc quản lý các kịch bản kiểm tra; thay đổi các tham số của hệ thống và của kịch bản kiểm tra; và thời gian chạy mô phỏng lâu đối với các tập dữ liệu dùng để kiểm tra và kiểm chứng hệ thống, đặc biệt là khi hệ thống được ghép nối với một hệ thống trên chip (System-on-chip). Trong báo cáo này, chúng tôi trình bày một phương pháp xây dựng hệ thống mô phỏng và kiểm chứng ở mức hệ thống bộ mã hoá tín hiệu video H.264/AVC dựa trên việc thiết kế kịch bản kiểm tra và kiểm chứng tối giản và linh động, kết hợp với các phần mềm mã nguồn mở sẵn có như GNU Make, ngôn ngữ Python để tạo thành một hệ thống kiểm tra và kiểm chứng tự động, cho phép tự động mô phỏng thiết kế từ mức hành xử cho đến mức cổng lô-gíc. Hệ thống này cho phép chạy nhiều mô phỏng tại cùng một thời điểm với các kịch bản kiểm tra khác nhau. Nhờ việc này, chúng tôi đã giảm được thời gian chạy mô phỏng từ 2 đến 10 lần phụ thuộc vào khả năng của máy chạy mô phỏng. Kịch bản kiểm tra được thực hiện trên VHDL để kiểm tra thiết kế của bộ mã hoá tín hiệu video H.264/AVC thực thi trên công nghệ 130nm của hãng Global Foundry.}
+}
+
+@inproceedings{SisLab417,
+       booktitle = {REV: the 2013 National Conference on Electronics and Communications},
+           month = {December},
+           title = {System-on-Chip Testbed for Validating the Hardware Design of H.264/AVC Encoder},
+          author = {Hai-Phong Phan and Kiem-Hung Nguyen and Duy-Hieu Bui and Nam-Khanh Dang and Xuan-Tu Tran},
+            year = {2013},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/417/},
+        abstract = {This paper presents an implementation of a LEON3-based System-on-Chip (SoC) testbed, which is aimed at experimentally evaluating and validating the H.264/AVC video encoding Integrated Circuit (IC) developed by SIS Laboratory at VNU University of Engineering and Technology. In addition, the paper also presents a methodology for verifying the design of H264/AVC video encoder in the Hardware/Software co-emulating fashion. The design is implemented on the DE2 development board from Altera Corporation. The testbed can help us to evaluate effectively many aspects of the developed H.264/AVC video encoder.}
+}
+
+@inproceedings{SisLab169,
+       booktitle = {The 26th IEEE International System-on-Chip Conference (SOCC)},
+           month = {September},
+           title = {High-Performance Adaption of ARM Processor into Network-on-Chip Architectures},
+          author = {Tung Nguyen and Duy-Hieu Bui and Hai-Phong Phan and Trong-Trinh Dang and Xuan-Tu Tran},
+            year = {2013},
+           pages = {222--227},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/169/},
+        abstract = {The demand for system scalability, reusability, and the decoupling between computation and communication have motivated the growth of Network-on-Chip (NoC) paradigm in the recent years. The system design has changed from the computation centric design to the communication centric design. Researchers have proposed a number of NoC architectures. Most of these works focus on network architectures and routing algorithms, however, the interfaces between network architectures and processing units also need to be addressed to improve the overall performance of the system. This paper presents an efficient AXI (Advanced eXtensible Interface) compliant network adapter for 2D mesh Wormhole-based NoC architectures, named AXI-NoC adapter. The proposed network adapter achieves high frequency of 650MHz with a low area footprint (952 cells, approximate to 2,793um2 with a CMOS 45nm technology) by using an effective micro-architecture and with zero latency by using the mux-selection method.}
+}
+
+@inproceedings{SisLab41,
+       booktitle = {2012 IEICE International Conference on Integrated Circuits and Devices in Vietnam (ICDV 2012)},
+           month = {August},
+           title = {A Hardware Architecture for Intra Prediction in H.264/AVC Encoder},
+          author = {Duy-Hieu Bui and Van Huan Tran and Van Mien Nguyen and Duc Hoang Ngo and Xuan-Tu Tran},
+            year = {2012},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/41/},
+        abstract = {MPEG-4 AVC, so called H.264/AVC, is the latest video compression standard focusing on network transport and
+storage of digital multimedia. In H.264 system, the intra prediction module is one of the most essential parts and it is different from the previous video compression standards. With the new prediction techniques, intra prediction in H.264 improves the bit rate but it also increases the memory bandwidth and the computational complexity with many prediction modes. In this work, the intra prediction procedure is fully analyzed. Based on the analysis, a hardware architecture for intra prediction focused on
+main profile of H.264/AVC is proposed. The proposed architecture uses an adder tree to generate the predicted pixels for all prediction modes. The cost calculation method is Sum of Absolute Transformed Difference (SATD) and mode decision is the full search scheme. The proposed architecture can do intra prediction of an HDTV input in real-time and it is successfully simulated using Modelsim and synthesized using Xilinx ISE 10.1.}
+}
+
+@inproceedings{SisLab47,
+       booktitle = {The 2011 International Conference on Integrated Circuits and Devices in Vietnam (IEICE ICDV 2011)},
+           month = {August},
+           title = {Multi-level Design Methodology using SystemC and VHDL for JPEG Encoder},
+          author = {Duy-Hieu Bui and Xuan-Tu Tran},
+            year = {2011},
+           pages = {33--37},
+            note = {ISBN: 978-4-88552-258-1},
+        keywords = {SystemC, VHDL, co-design, co-simulation, JPEG encoder},
+             url = {https://eprints.uet.vnu.edu.vn/eprints/id/eprint/47/},
+        abstract = {Nowadays, System-on-Chip (SoC) systems are becoming more and more complex and need more time to model, simulate and verification. To reduce the complexity of the system and to boost development time, a new design methodology is required. Along with SystemC library, multi-level abstraction design methodology is proposed as the key concept in SoC design. In this paper, the authors apply this methodology to model and simulate a JPEG encoder using the combination of SystemC and VHDL to explore the architecture and implement the design into hardware components. Consequently, some parts of the JPEG encoder has successfully synthesized and implemented using FPGA tools. In conclusion, the design methodology gives designers a fast way and step-by-step to explore the hardware architecture, simulate and implement the system.}
+}

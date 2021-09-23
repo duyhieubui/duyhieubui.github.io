@@ -77,5 +77,9 @@
     </section>
   {% when "custom" %}
     <section id="comments"></section>
+  {% when "giscus" %}
+    <section id="comments">
+      {% include /comments-providers/giscus.html %}
+    </section>
   {% endcase %}
 </div>
